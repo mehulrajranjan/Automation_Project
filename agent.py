@@ -102,7 +102,7 @@ if __name__ == "__main__":
             try:
                 speak("what should I send?")
                 content = takecommand()
-                to = "mehul.raj.5530@gmail.com"
+                to = "<RECIEVER'S EMAIL>"
                 sendEmail(to, content)
                 speak("Your email has been sent")
 
